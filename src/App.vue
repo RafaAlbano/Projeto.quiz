@@ -1,17 +1,14 @@
 <script>
+import BlocoCabecalho from "@/components/BlocoCabecalho.vue";
 import BlocoPrincipal from "@/components/BlocoPrincipal.vue";
-import BlocoPrincipal from "@/components/BlocoCabecalho.vue";
-import BlocoPrincipal from "@/components/BlocoRodape.vue";
-
+import BlocoRodape from "@/components/BlocoRodape.vue";
 
 export default {
-  components: { BlocoPrincipal, BlocoCabecalho, BlocoRodape },
+  components: { BlocoCabecalho, BlocoPrincipal, BlocoRodape },
 };
 </script>
 <template>
-  <BlocoPrincipal />
   <BlocoCabecalho />
+  <BlocoPrincipal />
   <BlocoRodape />
 </template>
-
-<style></style>
