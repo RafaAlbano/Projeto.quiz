@@ -46,6 +46,7 @@ export default {
   align-items: center;
   font-size: 2.5em;
   font-family: "Times New Roman", Times, serif;
+  padding-left: 50px;
 }
 
 .alternativas {
