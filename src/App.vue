@@ -9,6 +9,8 @@ export default {
 </script>
 <template>
   <BlocoCabecalho />
-  <BlocoPrincipal />
+  <main id="pag">
+    <BlocoPrincipal />
+  </main>
   <BlocoRodape />
 </template>

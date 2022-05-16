@@ -40,7 +40,7 @@ export default {
 .pergunta {
   width: 50%;
   height: 100vh;
-  background-color: #c0aecd;
+  background-color: rgb(223, 221, 221);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +52,7 @@ export default {
 .alternativas {
   width: 50%;
   height: 100vh;
-  background-color: #b19fbe;
+  background-color: rgb(189, 184, 184);
 
   display: flex;
   flex-direction: column;
@@ -68,7 +68,7 @@ export default {
 }
 
 .alternativas p:hover {
-  background-color: #c0aecd;
+  background-color: rgb(223, 221, 221);
   cursor: pointer;
 }
 </style>

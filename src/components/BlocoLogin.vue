@@ -1,7 +1,7 @@
 <script></script>
 <template>
   <div class="questoes">
-    <div class="pergunta">
+    <div class="login2">
       <div class="fundo-login">
         <h1>LOGIN</h1>
       </div>
@@ -22,7 +22,7 @@
   display: flex;
   height: 100%;
 }
-.pergunta {
+.login2 {
   width: 50%;
   height: 100vh;
   background-color: rgb(223, 221, 221);
