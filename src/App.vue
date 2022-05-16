@@ -1,16 +1,18 @@
 <script>
-import BlocoCabecalho from "@/components/BlocoCabecalho.vue";
-import BlocoPrincipal from "@/components/BlocoPrincipal.vue";
-import BlocoRodape from "@/components/BlocoRodape.vue";
+import { RouterLink, RouterView } from "vue-router";
 
 export default {
-  components: { BlocoCabecalho, BlocoPrincipal, BlocoRodape },
+  components: { RouterLink, RouterView },
 };
 </script>
 <template>
-  <BlocoCabecalho />
-  <main id="pag">
-    <BlocoPrincipal />
-  </main>
-  <BlocoRodape />
+  <header>
+    <div class="wrapper">
+      <nav>
+        <RouterLink to="/login">Login</RouterLink>
+        <RouterLink to="/questoes">Quiz</RouterLink>
+      </nav>
+    </div>
+  </header>
+  <RouterView />
 </template>

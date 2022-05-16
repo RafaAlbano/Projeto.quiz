@@ -66,9 +66,6 @@ p {
   margin-left: 50px;
 }
 
-h1 {
-}
-
 .fundo-login {
   background-color: rgb(128, 128, 128, 0.5);
   color: whitesmoke;
