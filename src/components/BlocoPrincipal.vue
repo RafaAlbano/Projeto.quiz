@@ -1,14 +1,14 @@
 <script>
-import BlocoLogin from "@/components/BlocoLogin.vue";
+import BlocoQuestoes from "@/components/BlocoQuestoes.vue";
 
 export default {
-  components: { BlocoLogin },
+  components: { BlocoQuestoes },
 };
 </script>
 <template>
   <main id="pag">
-    <!-- <BlocoQuestoes /> -->
-    <BlocoLogin />
+    <BlocoQuestoes />
+    <!-- <BlocoLogin /> -->
   </main>
 </template>
 <style></style>
